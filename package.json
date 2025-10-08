@@ -1,0 +1,14 @@
+{
+  "name": "monkey-detector",
+  "version": "1.0.0",
+  "description": "Face tracking application",
+  "main": "./app/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
